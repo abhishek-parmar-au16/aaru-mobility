@@ -56,7 +56,7 @@ span h1{
 }
 
 header{
- background-image: url(./images/jeshoots-com-mSESwdMZr-A-unsplash.jpg);
+ background-image: url("./images/jeshoots-com-mSESwdMZr-A-unsplash.jpg");
  background-size: cover;
  background-position: center;
  height: 100vh;
@@ -176,7 +176,7 @@ header{
 .main-section-hero{
  height: 100vh;
  width: 100%;
- background-image: url(./images/harold-eggar-oIVpygLFUJg-unsplash.jpg);
+ background-image: url("./images/harold-eggar-oIVpygLFUJg-unsplash.jpg");
  background-position: center;
  background-size: cover;
  display: flex;

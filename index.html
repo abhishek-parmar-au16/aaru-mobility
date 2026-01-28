@@ -9,10 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/navbar-logos.css">
     <link rel="stylesheet" href="css/aaru-mobility.css">
     <link rel="stylesheet" href="css/loader.css">
     <link rel="stylesheet" href="css/animations.css">
     <script src="js/components.js"></script>
+    <script src="js/api.js"></script>
 </head>
 
 <body class="aaru-body">
@@ -29,10 +31,17 @@
             <div class="dot"></div>
             <div class="dot"></div>
         </div>
-        <div class="loading-text">LOADING . . .</div>
+        <div class="loading-text">LOADING</div>
     </div>
 
-    <script>document.write(getAARUMobilityNavbar());</script>
+    <header class="aaru-custom-header">
+        <a href="index.html" class="aaru-header-logo">
+            <img src="images/ventures/aaru-mobility.png" alt="AARU Mobility">
+        </a>
+        <a href="ventures.html" class="aaru-header-back">
+            <img src="images/aaru-mobility/back.png" alt="Back">
+        </a>
+    </header>
 
     <!-- HERO -->
     <section class="aaru-hero">
@@ -44,7 +53,7 @@
                 <img src="images/aaru-mobility/hero-bottom.svg" alt="AARU Mobility Services">
             </div>
             <div class="aaru-visit-site-btn">
-                <p class="aaru-visit-site-text"> <img src="images/aaru-mobility/Search.svg" alt="Visit Site Icon"
+                <p class="aaru-visit-site-text"> <img src="images/aaru-mobility/visit-site.png" alt="Visit Site Icon"
                         class="aaru-visit-site-icon"> Visit Site </p>
             </div>
         </div>
@@ -52,8 +61,8 @@
     <section class="aaru-brands">
         <div class="aaru-brands-track" id="aaruBrandsTrack">
             <img src="images/aaru-mobility/BMW.png" class="brand-logo" alt="BMW">
-            <img src="images/aaru-mobility/Hyundai.png" class="brand-logo" alt="Hyundai">
-            <img src="images/aaru-mobility/Ford.png" class="brand-logo" alt="Ford">
+            <img src="images/aaru-mobility/HYUNDAI.png" class="brand-logo" alt="Hyundai">
+            <img src="images/aaru-mobility/FORD.png" class="brand-logo" alt="Ford">
             <img src="images/aaru-mobility/MARUTI-SUZUKI.png" class="brand-logo" alt="Maruti Suzuki">
             <img src="images/aaru-mobility/MERCEDES.png" class="brand-logo" alt="Mercedes">
         </div>
@@ -114,6 +123,7 @@
                     <img src="images/aaru-mobility/Jeep.png" alt="Jeep" class="aaru-jeep-img" id="jeepImg">
                 </div>
             </div>
+        </div>
     </section>
 
     <!--  FLEET -->
@@ -125,13 +135,16 @@
         </p>
         <div class="aaru-fleet-img img">
             <div class="aaru-fleet-BMW-img">
-                <img src="images/aaru-mobility/FLEET-1ST.png" alt="AARU Mobility Fleet">
+                <img src="images/aaru-mobility/FLEET-1ST.png" alt="AARU Mobility Fleet" class="fleet-main">
+                <img src="images/aaru-mobility/FLEET-1ST-b.png" alt="AARU Mobility Fleet" class="fleet-hover">
             </div>
             <div class="aaru-fleet-Hunda-img">
-                <img src="images/aaru-mobility/FLEET-2ND.png" alt="AARU Mobility Fleet">
+                <img src="images/aaru-mobility/FLEET-2ND.png" alt="AARU Mobility Fleet" class="fleet-main">
+                <img src="images/aaru-mobility/FLEET-2ND-b.png" alt="AARU Mobility Fleet" class="fleet-hover">
             </div>
             <div class="aaru-fleet-bus-img">
-                <img src="images/aaru-mobility/FLEET-3RD.png" alt="AARU Mobility Fleet">
+                <img src="images/aaru-mobility/FLEET-3RD.png" alt="AARU Mobility Fleet" class="fleet-main">
+                <img src="images/aaru-mobility/FLEET-3RD-b.png" alt="AARU Mobility Fleet" class="fleet-hover">
             </div>
         </div>
     </section>
@@ -140,6 +153,7 @@
 
     <script>document.write(getModal());</script>
     <script src="js/script.js"></script>
+    <script src="js/connect-form.js"></script>
     <script src="js/loader.js"></script>
 
 </body>
